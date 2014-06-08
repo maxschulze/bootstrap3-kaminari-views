@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
 
   spec.files         = Dir['{app,config,db,lib}/**/*'] + %w(MIT-LICENSE Rakefile README.rdoc)
 
-  spec.add_dependency 'rails', '~> 4.0.0'
+  spec.add_dependency 'rails', '~> 4.1.0'
   spec.add_dependency 'kaminari'
   spec.add_development_dependency "bundler", "~> 1.3"
 end
